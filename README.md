@@ -48,9 +48,8 @@ rag-context-toxicity/
 │   ├── build_mixed_kb.py
 │
 ├── generation/              # Inference pipelines
-│   ├── prompt_generation.py
-│   ├── rag_inference.py
-│   ├── prompt_only_inference.py
+│   ├── groq_inference.py
+│   ├── openrouter_inference.py
 │
 ├── evaluation/              # Toxicity scoring
 │   ├── detoxify_scoring.py
@@ -84,16 +83,16 @@ python kb_construction/build_mixed_kb.py
 
 ### 2. Run Generation
 
-Prompt-only:
+For Llama:
 
 ```
-python generation/prompt_only_inference.py
+python generation/groq_inference.py
 ```
 
-RAG:
+For Other models(Gemini, Mistral, Qwen):
 
 ```
-python generation/rag_inference.py
+python generation/openrouter_inference.py
 ```
 
 ### 3. Evaluate Toxicity
