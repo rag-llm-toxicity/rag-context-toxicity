@@ -38,7 +38,6 @@ The pipeline consists of five stages:
 rag-context-toxicity/
 │
 ├── input_prompts/           # Prompt sets for each KB condition
-│   ├── input_prompts_toxic.py
 │   ├── input_prompts_mixed.py
 │   ├── input_prompts_neutral.py
 │
