@@ -1,4 +1,3 @@
-
 # RAG Context Toxicity
 
 This repository contains the code and experimental pipeline for an anonymous submission studying:
@@ -36,7 +35,6 @@ The pipeline consists of five stages:
 ## Repository Structure
 
 ```
-
 rag-context-toxicity/
 │
 ├── input_prompts/           # Prompt sets for each KB condition
@@ -64,7 +62,6 @@ rag-context-toxicity/
 │
 ├── requirements.txt
 └── README.md
-
 ```
 
 ## Installation
@@ -72,9 +69,7 @@ rag-context-toxicity/
 Install dependencies:
 
 ```
-
 pip install -r requirements.txt
-
 ```
 
 ## Usage
@@ -82,11 +77,9 @@ pip install -r requirements.txt
 ### 1. Construct Knowledge Bases
 
 ```
-
 python kb_construction/build_neutral_kb.py
 python kb_construction/build_toxic_kb.py
 python kb_construction/build_mixed_kb.py
-
 ```
 
 ### 2. Run Generation
@@ -94,35 +87,27 @@ python kb_construction/build_mixed_kb.py
 Prompt-only:
 
 ```
-
 python generation/prompt_only_inference.py
-
 ```
 
 RAG:
 
 ```
-
 python generation/rag_inference.py
-
 ```
 
 ### 3. Evaluate Toxicity
 
 ```
-
 python evaluation/detoxify_scoring.py
 python evaluation/perspective_api_scoring.py
-
 ```
 
 ### 4. Analyze Results
 
 ```
-
 python analysis/toxicity_statistics.py
 python analysis/plotting.py
-
 ```
 
 ## Evaluation Metrics
