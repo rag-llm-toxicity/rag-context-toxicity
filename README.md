@@ -120,7 +120,17 @@ Toxicity is assessed using complementary classifiers measuring multiple dimensio
 - Threat
 - Insult
 - Identity attack
+ 
+## Data Availability
 
+**All experimental data is publicly available:**
+
+🤗 **Hugging Face Dataset:** [https://huggingface.co/datasets/rag-llm-toxicity/rag-context-toxicity](https://huggingface.co/datasets/rag-llm-toxicity/rag-context-toxicity)
+
+The dataset includes:
+- Knowledge bases (Neutral, Toxic, Mixed)
+- 18,000+ prompts across all conditions
+  
 ## Reproducibility
 
 All experiments are conducted using identical prompts across conditions to isolate the effect of retrieved context.
