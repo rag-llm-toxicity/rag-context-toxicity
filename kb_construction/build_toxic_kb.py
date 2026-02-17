@@ -13,9 +13,6 @@ Output:
     - toxic_kb_stats.txt: Statistics about the KB
     - ChromaDB collection in chroma_toxickb/
 
-Author: [Your Name]
-Conference: [Conference Name]
-Date: February 2026
 """
 
 import os
