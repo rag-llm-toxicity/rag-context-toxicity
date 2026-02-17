@@ -7,9 +7,6 @@ Supports Mistral, Gemini, Qwen, and other OpenRouter models.
 Environment Variables Required:
     OPENROUTER_KEY_1, OPENROUTER_KEY_2, OPENROUTER_KEY_3, OPENROUTER_KEY_4
 
-Author: [Your Name]
-Conference: [Conference Name]
-Date: February 2026
 """
 
 import os
