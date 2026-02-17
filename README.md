@@ -57,6 +57,7 @@ rag-context-toxicity/
 ├── analysis/                # Statistical analysis and visualization
 │   ├── toxicity_statistics.py
 │   ├── plotting.py
+│   ├── anova_analysis.py
 │
 ├── requirements.txt
 └── README.md
@@ -106,6 +107,7 @@ python evaluation/perspective_api_scoring.py
 ```
 python analysis/toxicity_statistics.py
 python analysis/plotting.py
+python analysis/anova_analysis.py
 ```
 
 ## Evaluation Metrics
